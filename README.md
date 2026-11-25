@@ -4,6 +4,8 @@ Copie autonome du portfolio français d’origine, avec la présentation de `por
 
 Le contenu français, les expériences, les filtres, les missions détaillées, les certifications, les loisirs interactifs et les crédits sont conservés.
 
+Le positionnement met en avant le Product Ownership et les références banque, assurance et épargne : Desjardins / La Personnelle, Société Générale, Macif et Le Conservateur. Une rubrique dédiée donne accès aux missions détaillées ; le parcours présente ces références en premier, puis les autres missions de Product Owner. Les intitulés de mission et les dates sont conservés.
+
 ## Ouvrir le portfolio
 
 Ouvrir `index.html` directement dans un navigateur, ou lancer `npm run dev` depuis ce dossier et consulter http://localhost:4176. Aucune installation nécessaire ; Node.js 20 ou supérieur suffit pour le serveur local. Arrêter avec Ctrl+C.

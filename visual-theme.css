@@ -1,4 +1,4 @@
-/* Local visual proposal: navy and amber with a modest cutout portrait. */
+/* Navy and amber portfolio with a modest cutout portrait. */
 :root {
   --paper: #faf9f6;
   --ink: #202d45;
@@ -77,12 +77,34 @@
 .mission-outcome { background: #f7f0e2; border-color: var(--ochre); }
 .footer { border-top: 1px solid var(--line); padding-block: 30px; gap: 20px; }
 .footer p, .footer .back-top, .footer .illustration-credits { font-size: .875rem; color: var(--muted); }
+.hero-specialty { display: block; margin-top: 8px; font-size: .8em; line-height: 1.5; color: var(--muted); }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.finance-section { padding-block: 72px 32px; }
+.finance-section .section-heading { margin-bottom: 20px; }
+.section-intro { max-width: 800px; margin-bottom: 30px; color: var(--muted); font-size: 1rem; line-height: 1.8; }
+.finance-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.finance-card { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; padding: 30px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); }
+.finance-card-featured { border-top: 4px solid var(--ochre); background: var(--surface); }
+.finance-card > img { width: 110px; height: 60px; object-fit: contain; object-position: left center; margin-bottom: 8px; }
+.finance-card .eyebrow { font-size: .875rem; letter-spacing: .8px; color: var(--muted); }
+.finance-card h3 { font-size: 1.5rem; font-weight: 650; line-height: 1.3; }
+.finance-card > p:not(.eyebrow):not(.finance-role) { color: var(--muted); font-size: 1rem; line-height: 1.8; }
+.finance-role { font-weight: 600; font-size: 1rem; }
+.finance-card .tool-tags { margin: 0; }
+.finance-card .tool-tags li { font-size: .875rem; }
+.finance-link { margin-top: auto; padding-top: 10px; text-decoration: underline; text-underline-offset: 5px; font-weight: 600; font-size: .9375rem; }
+.finance-link:hover { color: #8a5c14; }
+.experience-reading-note { color: var(--muted); font-size: .875rem; line-height: 1.8; margin-bottom: 24px; }
+.experience-card[id] { scroll-margin-top: 125px; }
 @media (max-width: 1100px) {
   .hero { gap: 28px 36px; }
   .hero .hero-visual::before { width: min(100%, 285px); }
   .hero .portrait-window { height: 316px; }
 }
 @media (max-width: 760px) {
+  .finance-section { padding-block: 48px 20px; }
+  .finance-grid { grid-template-columns: minmax(0, 1fr); }
+  .finance-card { padding: 24px; }
   .navigation { background: var(--paper); }
   .hero { grid-template-columns: minmax(0, 1fr); }
   .hero .hero-visual { width: min(100%, 320px); margin: 10px auto 0; }

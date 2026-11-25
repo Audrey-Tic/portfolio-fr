@@ -1,6 +1,12 @@
 (() => {
   'use strict';
-  const experiences = window.portfolioExperiences || [];
+  const sectorOrder = ['desjardins', 'societe-generale', 'macif', 'le-conservateur'];
+  const priority = experience => {
+    const sectorIndex = sectorOrder.indexOf(experience.id);
+    if (sectorIndex !== -1) return sectorIndex;
+    return /Product Owner/.test(experience.role) ? sectorOrder.length : sectorOrder.length + 1;
+  };
+  const experiences = [...(window.portfolioExperiences || [])].sort((a, b) => priority(a) - priority(b));
   const list = document.querySelector('#experience-list');
   const count = document.querySelector('#experience-count');
   const more = document.querySelector('#show-more');
@@ -22,6 +28,7 @@
 
   function renderExperience(experience) {
     const card = element('details', 'experience-card');
+    if (experience.id) card.id = experience.id;
     const summary = element('summary', 'experience-summary');
     const brand = element('span', `company-mark mark-${experience.color}`, experience.monogram);
     if (experience.logo) {
@@ -141,6 +148,32 @@
     else document.querySelector('#experiences').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
   });
   render();
+  function openLinkedExperience() {
+    const id = window.location.hash.slice(1);
+    if (!experiences.some(experience => experience.id === id)) return;
+    activeFilter = 'all';
+    activeMarket = 'all';
+    expanded = true;
+    marketFilter.value = 'all';
+    filters.forEach(filter => {
+      const selected = filter.dataset.filter === 'all';
+      filter.classList.toggle('is-active', selected);
+      filter.setAttribute('aria-pressed', String(selected));
+    });
+    render();
+    const card = document.getElementById(id);
+    card.open = true;
+    card.scrollIntoView({ block: 'start' });
+    card.querySelector('summary').focus({ preventScroll: true });
+  }
+  window.addEventListener('hashchange', openLinkedExperience);
+  document.querySelectorAll('.finance-link').forEach(link => link.addEventListener('click', event => {
+    if (window.location.hash === link.hash) {
+      event.preventDefault();
+      openLinkedExperience();
+    }
+  }));
+  openLinkedExperience();
   document.querySelector('#volunteering-list').replaceChildren(...(window.portfolioVolunteering || []).map(renderExperience));
 
   const menu = document.querySelector('.menu-toggle');

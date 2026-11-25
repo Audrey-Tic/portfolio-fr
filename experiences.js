@@ -1,6 +1,6 @@
 /* Informations issues du CV et précisions apportées par Audrey. Employeurs présentés dans index.html. */
 window.portfolioMarkets = {
-  "banking": "Banque & assurance",
+  "banking": "Banque, assurance & épargne",
   "aerospace": "Aéronautique",
   "retail": "Retail & grande consommation",
   "automotive": "Automobile",
@@ -87,6 +87,7 @@ window.portfolioExperiences = [
     "logo": "./assets/logos/cegid.png"
   },
   {
+    "id": "desjardins",
     "company": "Desjardins",
     "monogram": "D",
     "color": "green",
@@ -97,7 +98,7 @@ window.portfolioExperiences = [
       "data",
       "change"
     ],
-    "summary": "Pilotage de la migration du site La Personnelle de Liferay vers Adobe Experience Manager.",
+    "summary": "Product ownership de la migration du site La Personnelle : besoins métier et UX, backlog Jira et coordination de la mise en œuvre vers AEM.",
     "context": "Accompagner le changement de plateforme en assurant la cohérence des parcours, la continuité des données et la préparation des utilisateurs.",
     "missions": [
       "Définition et documentation des composants et des structures de pages selon les besoins métier et UX.",
@@ -182,6 +183,7 @@ window.portfolioExperiences = [
     "logo": "./assets/logos/speedy.png"
   },
   {
+    "id": "macif",
     "company": "Macif",
     "monogram": "M",
     "color": "blue",
@@ -192,7 +194,7 @@ window.portfolioExperiences = [
       "product",
       "change"
     ],
-    "summary": "Rationalisation des KPIs et cartographie des parcours de contact.",
+    "summary": "Besoins métier, user stories et optimisation des parcours de contact client, avec rationalisation des KPIs.",
     "context": "Deux périmètres pour la stratégie digitale : rationaliser les indicateurs de performance et comprendre de bout en bout le parcours de rappel à la demande.",
     "missions": [
       "Animation des ateliers métiers et définition des indicateurs web, app et réseaux sociaux.",
@@ -269,6 +271,7 @@ window.portfolioExperiences = [
     "logo": "./assets/logos/safran.jpeg"
   },
   {
+    "id": "societe-generale",
     "company": "Société Générale",
     "monogram": "SG",
     "color": "red",
@@ -278,7 +281,7 @@ window.portfolioExperiences = [
       "marketing",
       "product"
     ],
-    "summary": "Accompagnement de la migration d’Unica vers Adobe Campaign.",
+    "summary": "Spécifications fonctionnelles, cas d’usage et tests pour la migration d’Unica vers Adobe Campaign.",
     "context": "Intervenir comme consultante fonctionnelle sur la migration de la plateforme de campagnes marketing.",
     "missions": [
       "Analyse des campagnes existantes et formulation de recommandations.",
@@ -296,6 +299,7 @@ window.portfolioExperiences = [
     "logo": "./assets/logos/societe-generale.png"
   },
   {
+    "id": "le-conservateur",
     "company": "Le Conservateur",
     "monogram": "LC",
     "color": "green",
