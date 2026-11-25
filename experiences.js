@@ -13,7 +13,8 @@ window.portfolioExperiences = [
     "company": "Airbus",
     "monogram": "A",
     "color": "blue",
-    "role": "Consultante SEO / GEO & marketing",
+    "role": "Consultante CRM & transformation digitale",
+    "startDate": "2026-09",
     "period": "Oct. - déc. 2025 · Depuis sept. 2026",
     "current": true,
     "categories": [
@@ -28,7 +29,8 @@ window.portfolioExperiences = [
         "context": "Capitaliser sur les initiatives et outils existants pour proposer une feuille de route SEO / GEO à horizon 2027.",
         "missions": [
           "Réalisation d’un benchmark des solutions existantes.",
-          "Analyse des dimensions techniques et éditoriales.",
+          "Analyse de la maturité SEO / GEO selon cinq piliers : gouvernance, technique, contenu, stratégie et adoption.",
+          "Préconisations d’outillage adaptées à la maturité et aux initiatives existantes.",
           "Formulation de recommandations et construction de la trajectoire SEO / GEO.",
           "Organisation des instances de pilotage, suivi de l’avancement et des risques."
         ]
@@ -64,15 +66,18 @@ window.portfolioExperiences = [
     "monogram": "c",
     "color": "orange",
     "role": "Lead Change Manager",
+    "startDate": "2025-07",
     "period": "Juil. 2025 - août 2026",
     "categories": [
       "change"
     ],
     "summary": "Accompagnement d’une transformation IT dans un contexte de fusions et acquisitions.",
-    "context": "Une transformation technologique et organisationnelle qui touche les équipes IT, les processus de support et les relations entre la DSI et les métiers.",
+    "context": "Harmoniser les applications et l’IT dans un contexte de fusion-acquisition, sur un périmètre de 17 projets de transformation, 5 000 collaborateurs et 20 pays.",
     "missions": [
       "Accompagnement des changements technologiques et organisationnels.",
       "Mise en avant des KPIs clés et des réussites du programme.",
+      "Communication sur les réussites et les difficultés des projets auprès des parties prenantes.",
+      "Identification des risques humains et organisationnels et définition de plans d’actions correctifs.",
       "Accompagnement de la transition des rôles et responsabilités au sein des équipes IT.",
       "Contribution à l’amélioration de l’efficacité de la DSI au service des métiers.",
       "Établissement du plan de charge et chiffrage des activités.",
@@ -92,6 +97,7 @@ window.portfolioExperiences = [
     "monogram": "D",
     "color": "green",
     "role": "Product Owner",
+    "startDate": "2024-10",
     "period": "Oct. 2024 - juil. 2025",
     "categories": [
       "product",
@@ -99,9 +105,12 @@ window.portfolioExperiences = [
       "change"
     ],
     "summary": "Product ownership de la migration du site La Personnelle : besoins métier et UX, backlog Jira et coordination de la mise en œuvre vers AEM.",
-    "context": "Accompagner le changement de plateforme en assurant la cohérence des parcours, la continuité des données et la préparation des utilisateurs.",
+    "context": "Migration du site La Personnelle du CMS Liferay vers Adobe Experience Manager : 3 200 pages, 75 composants et neuf mois de migration. Accompagner le changement de plateforme en assurant la cohérence des parcours, la continuité des données et la préparation des utilisateurs.",
     "missions": [
       "Définition et documentation des composants et des structures de pages selon les besoins métier et UX.",
+      "Analyse des pratiques de contribution et des parcours clients, avec identification des dépendances entre les squads SEO, analytics et DAM.",
+      "Définition de la roadmap de migration et priorisation des composants.",
+      "Rédaction des user stories et animation des rituels avec les équipes métier et IT.",
       "Accompagnement de l’implémentation d’Adobe Analytics avec les équipes techniques.",
       "Planification de la migration en coordination avec les équipes pluridisciplinaires.",
       "Supervision des éléments SEO et de tracking pour la continuité de la mesure.",
@@ -125,6 +134,7 @@ window.portfolioExperiences = [
     "monogram": "a",
     "color": "red",
     "role": "Consultante analytics & Business Analyst",
+    "startDate": "2024-03",
     "period": "Mars 2024 - oct. 2025",
     "categories": [
       "data",
@@ -163,6 +173,7 @@ window.portfolioExperiences = [
     "monogram": "S",
     "color": "blue",
     "role": "Consultante analytics",
+    "startDate": "2024-10",
     "period": "Oct. 2024 - janv. 2025",
     "categories": [
       "data",
@@ -187,7 +198,8 @@ window.portfolioExperiences = [
     "company": "Macif",
     "monogram": "M",
     "color": "blue",
-    "role": "Consultante change & Business Analyst",
+    "role": "Business Analyst parcours clients & conduite du changement",
+    "startDate": "2023-12",
     "period": "Déc. 2023 - mars 2024",
     "categories": [
       "data",
@@ -198,10 +210,11 @@ window.portfolioExperiences = [
     "context": "Deux périmètres pour la stratégie digitale : rationaliser les indicateurs de performance et comprendre de bout en bout le parcours de rappel à la demande.",
     "missions": [
       "Animation des ateliers métiers et définition des indicateurs web, app et réseaux sociaux.",
+      "Animation d’ateliers avec les équipes IT, métiers, relation client et téléphonie autour du parcours Web Call Back.",
       "Analyse des écarts de mesure des conversions et définition des user stories et de leurs dépendances.",
       "Accompagnement de la prise en main des tableaux de bord.",
       "Modélisation des parcours Web Call Back et des flux entre SAP, Genesys et le CMS.",
-      "Documentation des parcours et recommandations d’optimisation pour les clients et téléconseillers."
+      "Documentation des parcours dans Confluence, transfert de connaissances et recommandations d’optimisation pour les clients et téléconseillers."
     ],
     "tools": [
       "Piano",
@@ -219,6 +232,7 @@ window.portfolioExperiences = [
     "monogram": "A",
     "color": "blue",
     "role": "Consultante Change Management",
+    "startDate": "2022",
     "period": "2022 - 2023",
     "categories": [
       "change",
@@ -250,6 +264,7 @@ window.portfolioExperiences = [
     "monogram": "S",
     "color": "blue",
     "role": "Consultante Change Management",
+    "startDate": "2022",
     "period": "2022",
     "categories": [
       "change",
@@ -275,14 +290,15 @@ window.portfolioExperiences = [
     "company": "Société Générale",
     "monogram": "SG",
     "color": "red",
-    "role": "Consultante Marketing Automation",
+    "role": "Business Analyst CRM · Marketing Automation",
+    "startDate": "2022",
     "period": "2022",
     "categories": [
       "marketing",
       "product"
     ],
     "summary": "Spécifications fonctionnelles, cas d’usage et tests pour la migration d’Unica vers Adobe Campaign.",
-    "context": "Intervenir comme consultante fonctionnelle sur la migration de la plateforme de campagnes marketing.",
+    "context": "Migration d’Unica vers Adobe Campaign sur un périmètre de 186 campagnes nationales et de plus de 800 segments.",
     "missions": [
       "Analyse des campagnes existantes et formulation de recommandations.",
       "Rédaction des spécifications fonctionnelles depuis Unica pour leur intégration dans Adobe Campaign.",
@@ -303,18 +319,21 @@ window.portfolioExperiences = [
     "company": "Le Conservateur",
     "monogram": "LC",
     "color": "green",
-    "role": "Consultante Marketing Automation",
+    "role": "Business Analyst CRM · Marketing Automation",
+    "startDate": "2022",
     "period": "2022",
     "categories": [
       "marketing",
       "product"
     ],
-    "summary": "Cadrage des besoins fonctionnels pour la mise en place d’Adobe Campaign.",
-    "context": "Accompagner le déploiement de la solution de marketing automation avec les équipes métier.",
+    "summary": "Analyse fonctionnelle, migration de campagnes marketing et accompagnement des métiers sur Adobe Campaign.",
+    "context": "Migration de 38 campagnes marketing sur Adobe Campaign pour les offres d’assurance vie, d’épargne et de prévoyance.",
     "missions": [
       "Rédaction des spécifications fonctionnelles générales et détaillées.",
       "Définition des cas d’usage marketing.",
-      "Organisation des ateliers métier."
+      "Organisation des ateliers métier.",
+      "Définition de la stratégie de test et exécution des tests fonctionnels.",
+      "Animation de dix jours de formation auprès des équipes métier."
     ],
     "tools": [
       "Adobe Campaign",
@@ -328,16 +347,18 @@ window.portfolioExperiences = [
     "company": "Royal Canin",
     "monogram": "RC",
     "color": "red",
-    "role": "Proxy Product Owner · Global Functional Expert",
+    "role": "Proxy Product Owner CRM & e-commerce B2B · Global Functional Expert",
+    "startDate": "2021",
     "period": "2021",
     "categories": [
       "product",
       "data"
     ],
     "summary": "Mise en place d’une expérience B2B consolidée et amélioration d’un outil de salesforce automation.",
-    "context": "Deux missions : mettre en place un écosystème B2B offrant une expérience d’achat consolidée et améliorer en continu un outil d’automatisation de la force de vente.",
+    "context": "Deux missions : implémenter une boutique en ligne B2B et améliorer en continu l’outil de force de vente Dynamics CRM. Un périmètre de 21 pays, en collaboration avec 14 squads, notamment PIM, DAM, logistique et paiement.",
     "missions": [
       "Animation des ateliers métier et techniques, définition des user stories et chiffrage avec les développeurs.",
+      "Recueil des besoins des pays et analyse fonctionnelle pour l’implémentation de la boutique B2B.",
       "Création des personas et cartographie de l’expérience utilisateur.",
       "Identification des silos et des besoins spécifiques des pays.",
       "Interviews des utilisateurs et experts fonctionnels sur les usages.",
@@ -347,7 +368,8 @@ window.portfolioExperiences = [
       "User stories",
       "Personas",
       "Experience mapping",
-      "Power BI"
+      "Power BI",
+      "Dynamics CRM"
     ],
     "market": "retail",
     "logo": "./assets/logos/royal-canin.png"
@@ -357,6 +379,7 @@ window.portfolioExperiences = [
     "monogram": "BMW",
     "color": "blue",
     "role": "CRM & BI Product Owner",
+    "startDate": "2021",
     "period": "2021",
     "categories": [
       "product",

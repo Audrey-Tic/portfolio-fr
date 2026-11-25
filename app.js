@@ -1,12 +1,7 @@
 (() => {
   'use strict';
-  const sectorOrder = ['desjardins', 'societe-generale', 'macif', 'le-conservateur'];
-  const priority = experience => {
-    const sectorIndex = sectorOrder.indexOf(experience.id);
-    if (sectorIndex !== -1) return sectorIndex;
-    return /Product Owner/.test(experience.role) ? sectorOrder.length : sectorOrder.length + 1;
-  };
-  const experiences = [...(window.portfolioExperiences || [])].sort((a, b) => priority(a) - priority(b));
+  const experiences = [...(window.portfolioExperiences || [])]
+    .sort((a, b) => b.startDate.localeCompare(a.startDate));
   const list = document.querySelector('#experience-list');
   const count = document.querySelector('#experience-count');
   const more = document.querySelector('#show-more');
