@@ -84,7 +84,6 @@
 .section-intro { max-width: 800px; margin-bottom: 30px; color: var(--muted); font-size: 1rem; line-height: 1.8; }
 .finance-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 .finance-card { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; padding: 30px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); }
-.finance-card-featured { border-top: 4px solid var(--ochre); background: var(--surface); }
 .finance-card > img { width: 110px; height: 60px; object-fit: contain; object-position: left center; margin-bottom: 8px; }
 .finance-card .eyebrow { font-size: .875rem; letter-spacing: .8px; color: var(--muted); }
 .finance-card h3 { font-size: 1.5rem; font-weight: 650; line-height: 1.3; }
