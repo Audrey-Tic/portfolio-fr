@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-fr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portfolio français d’Audrey Tichit, avec le style de portfolio-EN",
+  "scripts": {
+    "dev": "node server.mjs",
+    "check": "node --check app.js && node --check experiences.js && node --check server.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
